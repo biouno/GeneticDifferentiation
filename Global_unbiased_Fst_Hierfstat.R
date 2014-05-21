@@ -8,7 +8,7 @@
 
 library("hierfstat")
 
-setwd("C:/Users/Mark/My Documents/GitHub/GeneticDifferentiation")  # Set the working directory
+#setwd("C:/Users/Mark/My Documents/GitHub/GeneticDifferentiation")  # Set the working directory
 dat <- read.table("SNP_data.txt", header=TRUE, sep="\t", na.strings="?", dec=".", check.names=FALSE) # read in data
 
 #=============================================================================================================#
